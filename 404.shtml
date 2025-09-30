@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Page Not Found</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="styles-404.css" />
+</head>
+
+<body>
+  <!-- start about -->
+  <nav>
+    <div class="menu">
+      <a href="https://www.mayaaesthetichub.com/">
+        <p class="website_name">MAYA AESTHETIC HUB</p>
+      </a>
+    </div>
+  </nav>
+
+  <section class="wrapper">
+    <div class="container">
+      <div id="scene" class="scene" data-hover-only="false">
+        <div class="circle" data-depth="1.2"></div>
+        <div class="one" data-depth="0.9">
+          <div class="content">
+            <span class="piece"></span>
+            <span class="piece"></span>
+            <span class="piece"></span>
+          </div>
+        </div>
+        <div class="two" data-depth="0.60">
+          <div class="content">
+            <span class="piece"></span>
+            <span class="piece"></span>
+            <span class="piece"></span>
+          </div>
+        </div>
+        <div class="three" data-depth="0.40">
+          <div class="content">
+            <span class="piece"></span>
+            <span class="piece"></span>
+            <span class="piece"></span>
+          </div>
+        </div>
+        <p class="p404" data-depth="0.50">404</p>
+        <p class="p404" data-depth="0.10">404</p>
+      </div>
+      <div class="text">
+        <article>
+          <p>Uh oh! Looks like you got lost. <br>Go back to the Homepage </p>
+          <a rel="noopener" href="https://www.mayaaesthetichub.com/"><button>Let's Go</button></a>
+        </article>
+      </div>
+    </div>
+  </section>
+  <!-- end about -->
+
+  <script>
+    {
+      var scene = document.getElementById('scene');
+    } var parallax = new Parallax(scene);
+  </script>
+
+</body>
+
+</html>

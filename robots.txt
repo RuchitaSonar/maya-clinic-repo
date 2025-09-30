@@ -1,0 +1,24 @@
+# robots.txt for https://www.mayaaesthetichub.com/
+
+# Allow all crawlers to access the entire site by default
+User-agent: *
+
+# Disallow specific directories or files that should not be indexed
+Disallow: /admin/
+Disallow: /wp-admin/
+Disallow: /wp-content/plugins/
+Disallow: /wp-content/themes/
+Disallow: /cgi-bin/
+Disallow: /private/
+Disallow: /tmp/
+
+# Disallow specific file types
+Disallow: /*.pdf$
+Disallow: /*.doc$
+Disallow: /*.xls$
+
+# Allow access to important pages
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.mayaaesthetichub.com/sitemap.xml
